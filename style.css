@@ -1,0 +1,275 @@
+.cls1
+{
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 100%;
+    background-color:#d8e3e7;
+    display: inline-block;
+    /* #bdb5b3;
+    */
+    
+    
+}
+.nav
+{
+    
+      position: fixed;
+      display: inline-block;
+      
+     
+
+}
+.myimg
+{
+  background-color:#132c33;
+  display: inline;
+  width: 20%;
+  height: 30%;
+    border-radius: 100%;
+    float: left;
+    
+    display: inline-block;
+}
+.navicon
+{
+    background-color:#132c33;
+    display: inline;
+    width: 6%;
+      border-radius: 100%;
+      
+      display: inline-block;
+      position: fixed;
+      
+      
+  
+}
+.navimg
+{
+  border-radius:100%;
+  bottom: 5%;
+  left: 5%; 
+  position: fixed;
+}
+.blog{
+   visibility: hidden;
+    display: inline-block;
+    font-size: 20px;
+    height: 30px;
+    width: 2000px;
+    
+}
+
+  .nav:hover .blog {
+    visibility: visible;
+    background-color: #126e82;
+    color:yellow;
+    position:sticky;
+  }
+  .nav:hover .navicon {
+    visibility: hidden;
+    
+  }
+  .nav:hover .nav {
+    size: 200px;
+    
+    
+  }
+  .dev{
+  font-family: 'Press Start 2P', cursive; 
+  color: black;
+
+    }
+  .dev:hover {
+    color: #ffd56b;
+  }
+  body{
+    
+        width: 100%;
+        height: auto;
+        font-family:  sans-serif;
+        align-content: center;
+        text-align: center;
+        margin: 40px 40px 40px 40px;
+        line-height: 1.8;
+      /*  padding-left: 10ch;
+       -webkit-animation: mover 1s infinite  alternate;
+        animation: mover .5s infinite  alternate;
+    */
+    margin: 0;
+}
+footer{
+  background-color: #51c4d3;
+}
+/*hr {
+  border-style: dotted none none none;
+    border-color: rgb(15, 0, 148);
+    width: 10%;
+    border-width: 6px;
+    animation: 3s linear;
+    animation-name: move;
+  
+    
+}*/
+hr{
+  border: dotted #19ffff 6px;
+    border-bottom: none;
+    border-bottom-width: initial;
+    border-bottom-style: none;
+    border-bottom-color: initial;
+    width: 6%;
+    margin: 100px auto;
+    -webkit-animation: mover .5s  alternate;
+    animation: 3s alternate;
+    animation-name:move ;
+
+}
+.laptopimg
+{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    margin: 0;
+    padding-right: 5%;
+    display: inline-block;
+    /*animation: 1s linear 1s  running slidein;
+    animation-name: cl1;
+    */
+
+}
+.nameme{
+    position: relative;
+    
+    display: inline-block;
+    /*font-family: 'Press Start 2P', cursive;
+    */
+    font-family: 'Uchen', serif;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 25px; 
+
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+   /* animation: 1s linear 1s  running slidein;
+    animation-name: cl1;
+    */
+    
+}
+.me{
+    font-family: 'Sacramento', cursive;
+    
+    color: rgb(0, 0, 0);
+/*bottom: 1000px;
+font-family: 'Press Start 2P', cursive;*/
+
+}
+.splcls
+{
+  background-color: #d8e3e7;
+}
+#identifyme
+{
+    
+    position: relative;
+    
+   display: inline-block;
+   color:black;
+   font-family: 'Press Start 2P', cursive;
+   -webkit-animation: mover .5s infinite  alternate;
+    animation: mover .5s infinite  alternate;
+   
+   
+}
+#img1
+{
+
+
+
+width: 5%;
+border-radius: 100%;
+border-color: black;
+background-color: black;
+left: 90%;
+bottom: 700px;
+
+
+}
+.cls2
+{
+    position:relative;
+    display: inline-block;
+    float: right;
+    background-color:#d8e3e7;
+    
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    
+}
+.abtme
+{
+  padding-left: 10%;
+  line-height: 1.8;
+  padding-right: 10%;
+}
+.proto{
+  
+  width: 50%;
+display: inline-block;
+    position: relative;
+    
+    float: right;
+    
+}
+
+.socio
+{
+ 
+  float: left;
+  position: fixed;
+  align-content:left ;
+        text-align:left;
+  
+
+}
+.protogon
+{
+  line-height: 1.8; 
+  margin: 10% 10% 10%;
+}
+@keyframes move {
+     from { margin-left: -20%; } 
+     to { margin-left: 100%; }  
+
+  }
+  @keyframes cl1 {
+    from { margin-left: -20%; } 
+    to { margin-right: 100%; }  
+  }
+    @keyframes cl2 {
+        from { margin-left: 0%; } 
+        to { margin-right: 50%; }  
+ }
+ 
+    @-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+ .me:hover{
+    color: blueviolet;
+   
+ }
+ .fade-in-image {
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 5s;
+    
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+ 
+  
+  
